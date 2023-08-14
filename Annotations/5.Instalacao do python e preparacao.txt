@@ -1,0 +1,66 @@
+python.org
+
+Recursos do python 3 a partir do 3.6
+
+Github
+
+replit.com
+
+gitpod.io
+
+python --version
+
+sudo usermod -s /usr/bin/zsh $(whoami) //Este comando
+torna o zsh o terminal padrão
+
+starship // Tema para o terminal tema groovibox
+
+python3 --version
+
+python3 -c "1"
+
+python3 -c "'Claudio'"
+
+python3 -c "print(1)"
+
+python3 -c "56 - 6"
+
+python3 -c "print(56 - 6)"
+
+python3 -c "'Claudio'.upper()"
+
+python3 -m site
+
+python3 -v // Tráz a versão
+
+python3 -vv // Tráz a data que o python foi compilado
+
+python3 -vvv // 
+
+python3 -M // 
+
+python3 -m turtledemo
+
+python3 // Terminal interativo do python
+
+RELP // Read 
+
+Exit // sai do terminal do python
+
+help(1)
+
+help()
+
+ctrl + l // Limpa a tela
+
+Editor micro
+
+
+
+
+
+
+
+
+
+

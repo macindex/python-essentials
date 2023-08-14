@@ -1,0 +1,22 @@
+Python
+
+Conjunto de tools
+
+
+PLR: Python Language Reference
+
+IronPython (Python running on .NET)
+Jython Python running on the java Virtual Machine
+PyPy A fast python implementation with a JIT compiler
+Stackless Python Branch of CPytho supporting microthreads
+MicroPython Python running on micro controllers
+
+CPython é a implementação oficial
+
+PSF Python Software Foundation
+
+pypi.org
+
+
+
+
