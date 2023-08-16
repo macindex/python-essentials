@@ -1,0 +1,89 @@
+Configuração git
+
+git config --global user.name
+git config --global user.email "asdfu@gmail.com"
+
+criar arquivo hello.py
+
+touch Hello.py
+
+starship // Ferramenta fr informações visual para terminal
+
+vim Hello.py
+
+i
+
+print('claudio'.upper())
+
+print("Hello, world!")
+
+Shebang #! Mensagem que será executada para o sistema
+operacional antes do programa executar
+
+#!python3
+
+which python  // Executar este comando no terminal 
+
+env
+
+#! /usr/bin/env python3
+
+// Boa prática destinar o ambiente
+
+python3 Hello.py 
+
+chmod +x Hello.py // Habilita a execução do arquivo 
+como programa 
+
+
+
+mv hello.py hello // Aqui estou substituindo o nome
+de hello.py por hello
+
+delta git 
+
+git commit -p 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
