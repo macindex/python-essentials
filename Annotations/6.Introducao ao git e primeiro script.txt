@@ -36,7 +36,6 @@ chmod +x Hello.py // Habilita a execução do arquivo
 como programa 
 
 
-
 mv hello.py hello // Aqui estou substituindo o nome
 de hello.py por hello
 
@@ -44,46 +43,5 @@ delta git
 
 git commit -p 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+git diff // Verifica as diferenças realizadas no arquivo
 

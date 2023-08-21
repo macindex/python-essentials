@@ -1,0 +1,34 @@
+PEP 8
+pep8.org
+
+Boa prática, utilizar o arquivo até a linha 79
+em sequida realize a quebra.
+
+Hello World Multi linguas
+A depender da lingua configurada no env
+o programa exibe a mensagem correspondente.
+Tenha a var LANG devidamente configurada ex:
+ export LANG=pt_br
+
+Execução:
+ python3 HelloWorld.py
+ ou
+ ./HelloWorld.py
+
+_ _ ou Dunder
+
+
+export LANG=us_US.utf8
+
+len(lang)
+
+// Fatiamento
+export LANG=it_IT.utf8
+export LANG=en_US.utf8
+
+LANG=it_IT python3 hello // Desta forma forço o sistema
+a usar o italiano
+
+
+
+
