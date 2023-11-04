@@ -9,3 +9,30 @@ source .venv/bin/activate
 
 
 Também usaremos um editor de códigos e você pode escolher o seu preferido: nano, micro-editor, vim, gedit, notepad++, vscode, sublime text etc...
+
+
+python3 hello.py // este comando executa
+
+python3 -m site // Mostra onde está os arquivos do python 
+
+which python mostra onde esta instalado o python
+
+python3 -m venv nomedoambiente // Aqui criamos o env 
+
+ls -a // Mostra tudo 
+
+ls .venv
+
+ls .venv/bin
+
+Para ativar o ambiente:
+
+source .venv/bin/activate
+
+which python // Agora vai mostrar que estou dentro de .venv
+
+
+
+
+
+
