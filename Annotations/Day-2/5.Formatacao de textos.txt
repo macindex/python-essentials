@@ -1,0 +1,50 @@
+Interpolação e Formatação de textos
+Uma das coisas mais úteis de se fazer com texto é a interpolação de variáveis dentro do texto e a formatação de acordo com template pre-definido.
+
+Interpolação é uma alternativa a concatenação, enquanto a concatenação usa o sinal de + como em "Bruno" + "Rocha" na interpolação usamos templates com posicionamento.
+
+Python oferece 3 maneiras de fazer Interpolação, a primeira e mais antiga delas segue um padrão universal adotado em muitos sistemas e em outras linguagens de programação e utiliza o sinal de % como marcador de template.
+
+%
+>>> mensagem = "Olá %s, você é o participante número %d e pode ganhar %f pontos."
+>>> nome = "Bruno"
+>>> numero = 4
+>>> pontos = 42.5
+>>> print(mensagem % (nome, numero, pontos))
+Olá Bruno, você é o participante número 4 e pode ganhar 42.500000 pontos.
+
+nome = "Claudio"
+saldo = 30.0
+
+"O saldo do " + nome + " é total de " + str(saldo)
+
+
+%
+>>> mensagem = "Olá %s, você é o participante número %d e pode ganhar %f pontos."
+>>> nome = "Bruno"
+>>> numero = 4
+>>> pontos = 42.5
+>>> print(mensagem % (nome, numero, pontos))
+Olá Bruno, você é o participante número 4 e pode ganhar 42.500000 pontos.
+Este tipo de formatação usa o % acompanhado de s para str, d para int, ou f para float, e além de demarcar o placeholder onde a substituição irá ocorrer também podemos definir a precisão numérica como em %.2f que significa que queremos imprimir apenas 2 casas decimais do número float.
+
+nome = "Claudio"
+saldo = 30.0
+
+"O saldo do " + nome + " é total de " + str(saldo)
+
+# interpolação 
+
+template = "O saldo do %s é o total de %d ou %f "
+
+template % (nome, saldo)
+
+"Olá, %s" % 1234 
+Olá, 1234 // Na saída o python converte para string
+
+
+>>> mensagem = "Olá %s, você é o participante número %d e pode ganhar %.2f pontos."
+>>> print(mensagem % (nome, numero, pontos))
+Olá Bruno, você é o participante número 4 e pode ganhar 42.50 pontos.
+E também é possivel utilizar parâmetros nomeados.
+
